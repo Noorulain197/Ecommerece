@@ -1,4 +1,4 @@
-const admin = require('firebase-admin')
+const serviceAccount = require("../config/serviceAccountKey.json");
 const path = require('path')
 const serviceAccount = require(path.join(__dirname, '../config/serviceAccountKey.json'))
 
