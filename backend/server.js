@@ -20,5 +20,8 @@ app.use('/api/products', productRoutes)
 // Health check
 app.get('/', (_, res) => res.send('🚀 API running'))
 
-const PORT = process.env.PORT || 5000
-app.listen(PORT, () => console.log(`✅ Server on http://localhost:${PORT}`))
+
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`Server running on port ${process.env.PORT}`);
+});
+
