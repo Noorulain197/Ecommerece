@@ -1,0 +1,13 @@
+# FRONTEND
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/.env.local
+
+# BACKEND
+/backend/node_modules/
+/backend/.env
+/backend/config/serviceAccountKey.json
+
+# General
+*.log
